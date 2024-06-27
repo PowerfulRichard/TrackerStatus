@@ -27,7 +27,7 @@ sites:
   - name: HDZone
     url: $HDZ
     maxResponseTime: 5000
-  - name:KamePT
+  - name: KamePT
     url: $KAME
     maxResponseTime: 5000
   - name: M-Team
