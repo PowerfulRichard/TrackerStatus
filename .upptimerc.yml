@@ -54,6 +54,7 @@ status-website:
   name: PT站状态监控 | Private Tracker Status Monitor
   introTitle: PT站状态监控<br>Private Tracker Status Monitor
   introMessage:  基于Github Pages和Upptime的PT站监控<br>Private Tracker Status Monitor based on Github Pages and Upptime
+  theme: ocean
   navbar:
     - title: 状态监控
       href: /
@@ -132,7 +133,7 @@ i18n:
   uptimeWeek: "7 天正常运行时间"
   uptimeMonth: "30天的正常运行时间"
   uptimeYear: "1年的正常运行时间"
-  liveStatusHtmlComment: "<！ -实时状态- >"
-  degradedPerformance: "🟨 性能降低"
-  completeOutage: "🟥 全部停机"
-  partialOutage: "🟧 部分停机"
+  liveStatusHtmlComment: "<!--实时状态-->"
+  degradedPerformance: "🟨 加载速度慢"
+  completeOutage: "🟥 所有网站均离线"
+  partialOutage: "🟧 部分网站离线"
