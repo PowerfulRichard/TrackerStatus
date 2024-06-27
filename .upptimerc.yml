@@ -5,46 +5,46 @@ repo: PT-Status # The name of this repository
 sites:
   - name: CHDBits
     url: $CHD
-    maxResponseTime: 5000
+    maxResponseTime: 1000
   - name: Femdomcult
     url: $FDC
-    maxResponseTime: 5000
+    maxResponseTime: 1000
   - name: GreatPostWall(GPW)
     url: $GPW
-    maxResponseTime: 5000
+    maxResponseTime: 1000
   - name: GT-Org
     url: $GTORG
-    maxResponseTime: 5000
+    maxResponseTime: 1000
   - name: GTru
     url: $GTRU
-    maxResponseTime: 5000
+    maxResponseTime: 1000
   - name: Haidan
     url: $HAIDAN
-    maxResponseTime: 5000
+    maxResponseTime: 1000
   - name: HDArea
     url: $HDAREA
-    maxResponseTime: 5000
+    maxResponseTime: 1000
   - name: HDAtoms
     url: $HDATOMS
-    maxResponseTime: 5000
+    maxResponseTime: 1000
   - name: HDFans
     url: $HDF
-    maxResponseTime: 5000
+    maxResponseTime: 1000
   - name: HDZone
     url: $HDZ
-    maxResponseTime: 5000
+    maxResponseTime: 1000
   - name: KamePT
     url: $KAME
-    maxResponseTime: 5000
+    maxResponseTime: 1000
   - name: M-Team
     url: $MT
-    maxResponseTime: 5000
+    maxResponseTime: 1000
   - name: PT-Time
     url: $PTT
-    maxResponseTime: 5000
+    maxResponseTime: 1000
   - name: TorrentLeech
     url: $TL
-    maxResponseTime: 5000
+    maxResponseTime: 1000
     
 status-website:
   workflowSchedule:
