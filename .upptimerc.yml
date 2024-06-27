@@ -33,7 +33,7 @@ sites:
   - name: M-Team
     url:$MT
     maxResponseTime: 5000
-  - name: PT Time
+  - name: PT-Time
     url: $PTT
     maxResponseTime: 5000
   - name: TorrentLeech
