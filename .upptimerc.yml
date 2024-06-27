@@ -12,6 +12,12 @@ sites:
   - name: GreatPostWall(GPW)
     url: $GPW
     maxResponseTime: 5000
+  - name: GT-Org
+    url: $GTORG
+    maxResponseTime: 5000
+  - name: GTru
+    url: $GTRU
+    maxResponseTime: 5000
   - name: Haidan
     url: $HAIDAN
     maxResponseTime: 5000
