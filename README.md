@@ -2,7 +2,7 @@ This repository contains the open-source uptime monitor and status page for [Ric
 
 > [!NOTE]
 >
-> ▼状态监控 | Status Monitor▼
+> ▼▼▼ 状态监控 | Status Monitor ▼▼▼
 
 <!--start: status pages-->
 
