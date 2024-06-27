@@ -31,9 +31,9 @@ sites:
     url: $KAME
     maxResponseTime: 5000
   - name: M-Team
-    url:$MT
+    url: $MT
     maxResponseTime: 5000
-  - name: PTTime
+  - name: PT-Time
     url: $PTT
     maxResponseTime: 5000
   - name: TorrentLeech
