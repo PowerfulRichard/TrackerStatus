@@ -133,7 +133,7 @@ i18n:
   uptimeWeek: "7 天正常运行时间"
   uptimeMonth: "30天的正常运行时间"
   uptimeYear: "1年的正常运行时间"
-  liveStatusHtmlComment: "<!--实时状态-->"
+  liveStatusHtmlComment: "<!-- 实时状态 -->"
   degradedPerformance: "🟨 加载速度慢"
   completeOutage: "🟥 所有网站均离线"
   partialOutage: "🟧 部分网站离线"
