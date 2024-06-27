@@ -114,8 +114,8 @@ i18n:
   startsAt: 开始于
   duration: 持续时间
   durationMin: $DURATION 分钟
-  incidentCompleted: 已完成
-  incidentScheduled: 已预定
+  incidentCompleted: 已结束的网站停机
+  incidentScheduled: 已预定的网站停机
   url: "链接"
   status: "状态"
   history: "历史"
@@ -134,6 +134,6 @@ i18n:
   uptimeMonth: "30天的正常运行时间"
   uptimeYear: "1年的正常运行时间"
   liveStatusHtmlComment: "<!-- 实时状态 -->"
-  degradedPerformance: "🟨 网站加载速度慢"
+  degradedPerformance: "🟨 部分网站加载速度慢"
   completeOutage: "🟥 所有网站均离线"
   partialOutage: "🟧 部分网站离线"
