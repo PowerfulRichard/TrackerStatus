@@ -4,10 +4,14 @@ repo: PT-Status # The name of this repository
  
 sites:
   - name: CHDBits
+    check: "tcp-ping"
     url: $CHD
+    port: 443
     maxResponseTime: 1000
   - name: Femdomcult
+    check: "tcp-ping"
     url: $FDC
+    port: 2710
     maxResponseTime: 1000
   - name: GreatPostWall(GPW)
     url: $GPW
@@ -19,7 +23,9 @@ sites:
     url: $GTRU
     maxResponseTime: 1000
   - name: Haidan
+    check: "tcp-ping"
     url: $HAIDAN
+    port: 443
     maxResponseTime: 1000
   - name: HDArea
     url: $HDAREA
@@ -34,13 +40,17 @@ sites:
     url: $HDZ
     maxResponseTime: 1000
   - name: KamePT
+    check: "tcp-ping"
     url: $KAME
+    port: 443
     maxResponseTime: 1000
   - name: M-Team
     url: $MT
     maxResponseTime: 1000
   - name: PT-Time
+    check: "tcp-ping"
     url: $PTT
+    port: 443
     maxResponseTime: 1000
   - name: TorrentLeech
     url: $TL
