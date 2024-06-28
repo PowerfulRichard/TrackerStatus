@@ -22,11 +22,11 @@ sites:
   - name: GTru
     url: $GTRU
     maxResponseTime: 1000
-  - name: Haidan
-    check: "tcp-ping"
-    url: $HAIDAN
-    port: 443
-    maxResponseTime: 1000
+#  - name: Haidan
+#    check: "tcp-ping"
+#    url: $HAIDAN
+#    port: 443
+#    maxResponseTime: 1000
   - name: HDArea
     url: $HDAREA
     maxResponseTime: 1000
