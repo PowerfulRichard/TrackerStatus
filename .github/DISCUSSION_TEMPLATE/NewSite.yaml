@@ -30,18 +30,18 @@ body:
       required: true
   - type: textarea
     id: link
-    description: "填写网站网址(分站/cdn/登录引导页地址) | Fill in the website URL (subsite/CDN/login guide page address)"
-    placeholder: "https://..."
     attributes:
       label: 站点地址 (Website URI)
+      description: "填写网站网址(分站/cdn/登录引导页地址) | Fill in the website URL (subsite/CDN/login guide page address)"
+      placeholder: "https://..."
     validations:
       required: true
   - type: textarea
     id: interval
-    description: "每5分钟~24小时 | Every 5 minutes ~ 24 hours"
-    placeholder: "每1小时"
     attributes:
       label: 检测时间间隔 (Detection interval)
+      description: "每5分钟~24小时 | Every 5 minutes ~ 24 hours"
+      placeholder: "每1小时"
     validations:
       required: false
   - type: textarea
