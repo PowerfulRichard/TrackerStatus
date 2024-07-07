@@ -1,6 +1,4 @@
-name: "New Site | 新网站监控"
-description: "Suggest monitor a new site / 申请监控一个新网站"
-labels: ["New Site"]
+labels: ["New Site | 新网站监控"]
 title: "[新网站] "
 body:
   - type: markdown
