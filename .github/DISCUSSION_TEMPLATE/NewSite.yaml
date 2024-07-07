@@ -1,0 +1,52 @@
+name: New Site request / 新网站监控
+description: Suggest monitor a new site / 申请监控一个新网站
+labels: ["New Site"]
+title: "[新网站] "
+body:
+  - type: markdown
+    id: introduction
+    attributes:
+      value: |
+        请按以下模板填写。
+        please submit your request using the following template.
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: 先决条件 (Prerequisites)
+      options:
+        - label: |
+            我已确认这个站点属于私有(PT)站点。
+            I am sure that this site is a private tracker site.
+          required: true
+        - label: |
+            我已确认这个网站没有纳入监控。
+            I am sure that this site has NOT currently be monitored by this repo.
+          required: true
+  - type: input
+    id: name
+    attributes:
+      label: 站点名称 (Website Name)
+    validations:
+      required: true
+  - type: textarea
+    id: link
+    description: 填写网站网址(分站/cdn/登录引导页地址) | Fill in the website URL (subsite/CDN/login guide page address)
+    placeholder: https://...
+    attributes:
+      label: 站点地址 (Website URI)
+    validations:
+      required: true
+  - type: textarea
+    id: interval
+    description: 每5分钟~24小时 | Every 5 minutes ~ 24 hours
+    placeholder: 每1小时
+    attributes:
+      label: 检测时间间隔 (Detection interval)
+    validations:
+      required: false
+  - type: textarea
+    id: more_info
+    attributes:
+      label: 备注 (Note)
+    validations:
+      required: false
