@@ -22,7 +22,7 @@ body:
             我已确认这个网站没有纳入监控。
             I am sure that this site has NOT currently be monitored by this repo.
           required: true
-  - type: input
+  - type: textarea
     id: name
     attributes:
       label: 站点名称 (Website Name)
