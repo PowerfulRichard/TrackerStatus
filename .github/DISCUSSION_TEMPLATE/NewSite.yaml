@@ -1,5 +1,5 @@
-name: New Site request / 新网站监控
-description: Suggest monitor a new site / 申请监控一个新网站
+name: "New Site | 新网站监控"
+description: "Suggest monitor a new site / 申请监控一个新网站"
 labels: ["New Site"]
 title: "[新网站] "
 body:
@@ -22,7 +22,7 @@ body:
             我已确认这个网站没有纳入监控。
             I am sure that this site has NOT currently be monitored by this repo.
           required: true
-  - type: textarea
+  - type: input
     id: name
     attributes:
       label: 站点名称 (Website Name)
@@ -30,16 +30,16 @@ body:
       required: true
   - type: textarea
     id: link
-    description: 填写网站网址(分站/cdn/登录引导页地址) | Fill in the website URL (subsite/CDN/login guide page address)
-    placeholder: https://...
+    description: "填写网站网址(分站/cdn/登录引导页地址) | Fill in the website URL (subsite/CDN/login guide page address)"
+    placeholder: "https://..."
     attributes:
       label: 站点地址 (Website URI)
     validations:
       required: true
   - type: textarea
     id: interval
-    description: 每5分钟~24小时 | Every 5 minutes ~ 24 hours
-    placeholder: 每1小时
+    description: "每5分钟~24小时 | Every 5 minutes ~ 24 hours"
+    placeholder: "每1小时"
     attributes:
       label: 检测时间间隔 (Detection interval)
     validations:
