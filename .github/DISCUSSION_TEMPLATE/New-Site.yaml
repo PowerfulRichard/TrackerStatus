@@ -1,4 +1,4 @@
-labels: ["New Site | 新网站监控"]
+labels: ["New Site"]
 title: "[新网站] "
 body:
   - type: markdown
