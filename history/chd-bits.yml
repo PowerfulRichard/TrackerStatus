@@ -1,7 +1,7 @@
 url: $CHD
-status: degraded
+status: up
 code: 200
-responseTime: 1175
-lastUpdated: 2024-07-21T06:43:55.303Z
+responseTime: 0
+lastUpdated: 2024-07-21T06:50:30.627Z
 startTime: 2024-06-27T12:44:00.432Z
 generator: Upptime <https://github.com/upptime/upptime>
