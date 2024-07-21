@@ -1,7 +1,7 @@
 url: $GTORG
-status: degraded
+status: up
 code: 200
-responseTime: 8833
-lastUpdated: 2024-07-21T02:43:17.977Z
+responseTime: 436
+lastUpdated: 2024-07-21T02:52:24.106Z
 startTime: 2024-06-27T12:46:18.674Z
 generator: Upptime <https://github.com/upptime/upptime>
