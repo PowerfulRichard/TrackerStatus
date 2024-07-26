@@ -1,7 +1,7 @@
 url: $HDATOMS
-status: degraded
+status: up
 code: 200
-responseTime: 8888
-lastUpdated: 2024-07-26T16:00:14.772Z
+responseTime: 569
+lastUpdated: 2024-07-26T16:23:03.280Z
 startTime: 2024-06-27T12:44:08.971Z
 generator: Upptime <https://github.com/upptime/upptime>
